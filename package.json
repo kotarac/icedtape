@@ -1,0 +1,31 @@
+{
+  "name": "icedtape",
+  "version": "1.0.0",
+  "description": "Run tape tests written in IcedCoffeeScript.",
+  "homepage": "https://github.com/kotarac/icedtape",
+  "bugs": "https://github.com/kotarac/icedtape/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kotarac/icedtape.git"
+  },
+  "keywords": [
+    "tape",
+    "iced-coffee-script"
+  ],
+  "author": {
+    "name": "Stipe Kotarac",
+    "email": "stipe@kotarac.net",
+    "url": "https://github.com/kotarac"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "dependencies": {
+    "iced-coffee-script": "^108.0.11",
+    "tape": "^4.6.3"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2"
+  }
+}
